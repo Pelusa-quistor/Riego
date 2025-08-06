@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TILMEX - Inicio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <header class="navbar">
+    <div class="navbar-logo">
+      <img src="img/logo.png" alt="TILMEX Logo">
+    </div>
+    <nav class="navbar-menu">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="productos.html">Productos</a>
+      <a href="promociones.html">Promociones</a>
+
+      <!-- Imagen del carrito como botón -->
+      <img id="cart-btn" src="img/logo_carrito.png" alt="Carrito" class="cart-icon">
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="content">
+    <section class="hero-slider">
+        <div class="slide active" style="background-image: url('img/slider1.jpg');">
+            <div class="slide-overlay">
+            <div class="slide-left">
+                <img src="img/producto1.png" alt="Producto 1">
+            </div>
+            <div class="slide-right">
+                <h2>Producto 1</h2>
+                <p>Este es un excelente producto para uso diario, cómodo y duradero.</p>
+                <a href="productos.html" class="btn-green">Ver productos</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image: url('img/slider2.jpg');">
+            <div class="slide-overlay">
+            <div class="slide-left">
+                <img src="img/producto2.png" alt="Producto 2">
+            </div>
+            <div class="slide-right">
+                <h2>Producto 2</h2>
+                <p>Perfecto para ambientes modernos. Calidad garantizada.</p>
+                <a href="productos.html" class="btn-green">Ver productos</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image: url('img/slider3.jpg');">
+            <div class="slide-overlay">
+            <div class="slide-left">
+                <img src="img/producto3.png" alt="Producto 3">
+            </div>
+            <div class="slide-right">
+                <h2>Producto 3</h2>
+                <p>Ideal para quienes buscan rendimiento y diseño en un solo producto.</p>
+                <a href="productos.html" class="btn-green">Ver productos</a>
+            </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <!-- Carrito lateral -->
+  <aside id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+      <h2>Carrito</h2>
+      <button id="close-cart">✖</button>
+    </div>
+    <div class="cart-items">
+      <!-- Aquí se agregarán los productos desde JavaScript -->
+    </div>
+    <div class="cart-footer">
+      <p id="cart-subtotal">Su
